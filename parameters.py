@@ -159,9 +159,9 @@ gSke = Parameter(name = 'gSke',
                 nature = 'external',
                 type = 'real',
                 value = 1e-3,
-                texname = 'g_{ae}',
+                texname = 'g_{\\text{ae}}',
                 lhablock = 'ALPPARS',
-                lhacode = [1])
+                lhacode = [9000006])
 
 MZ = Parameter(name = 'MZ',
                nature = 'external',
