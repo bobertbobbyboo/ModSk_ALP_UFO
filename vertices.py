@@ -1012,7 +1012,7 @@ V_167 = Vertex(name = 'V_167',
                couplings = {(0,0):C.GC_15})
 
 V_Ske = Vertex(name = 'V_Ske',
-              particles = [ P.e__tilde__, P.e__, P.Sk ],
+              particles = [ P.e__plus__, P.e__minus__, P.Sk ],
               color = [ '1' ],
               lorentz = [ L.FFP ],
               couplings = {(0,0):C.GC_Ske})
