@@ -555,4 +555,4 @@ GC_136 = Coupling(name = 'GC_136',
 
 GC_Ske = Coupling(name = 'GC_Ske',
                  value = 'complex(0,1)*gSke',
-                 order = {'QED':1})
+                 order = {'HIW':1})
