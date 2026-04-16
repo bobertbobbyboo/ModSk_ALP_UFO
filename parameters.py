@@ -153,6 +153,16 @@ gWW = Parameter(name = 'gWW',
                 lhablock = 'FRBlock',
                 lhacode = [ 4 ])
 
+# sk-e coupling param. !!!!!!!!!!! find an actual value
+# look into derivative coupling, g is electron mass-suppressed instead of const?
+gSke = Parameter(name = 'gSke',
+                nature = 'external',
+                type = 'real',
+                value = 1e-5,
+                texname = 'g_{ae}',
+                lhablock = 'ALPPARS',
+                lhacode = [1])
+
 MZ = Parameter(name = 'MZ',
                nature = 'external',
                type = 'real',
@@ -241,6 +251,7 @@ MH = Parameter(name = 'MH',
                lhablock = 'MASS',
                lhacode = [ 25 ])
 
+# !!!!!!!!!! check units
 MSk = Parameter(name = 'MSk',
                 nature = 'external',
                 type = 'real',

@@ -553,3 +553,6 @@ GC_136 = Coupling(name = 'GC_136',
                   value = '(ee*complex(0,1)*complexconjugate(CKM3x3))/(sw*cmath.sqrt(2))',
                   order = {'QED':1})
 
+GC_Ske = Coupling(name = 'GC_Ske',
+                 value = 'complex(0,1)*gSke',
+                 order = {'QED':1})

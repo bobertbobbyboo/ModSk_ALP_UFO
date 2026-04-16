@@ -56,6 +56,11 @@ FFV5 = Lorentz(name = 'FFV5',
                spins = [ 2, 2, 3 ],
                structure = 'Gamma(3,2,-1)*ProjM(-1,1) + 4*Gamma(3,2,-1)*ProjP(-1,1)')
 
+# structure adj(psi) gamma5 psi
+FFP = Lorentz(name = 'FFP',
+              spins = [ 2, 2, 1 ],
+              structure = 'Gamma5(2,1)')
+
 VSS1 = Lorentz(name = 'VSS1',
                spins = [ 3, 1, 1 ],
                structure = 'P(1,2) - P(1,3)')
